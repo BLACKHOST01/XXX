@@ -1,0 +1,39 @@
+{% load static tailwind_tags %}
+{% load fontawesome_6 %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BlackHost</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="">
+	{% tailwind_css %}
+	{% fontawesome_6_static%}
+	{% load static %}
+
+</head>
+
+<body
+	class="bg-gradient-to-br from-blue-400 to-black/10 font-serif leading-normal min-h-screen min-w-full tracking-normal  ">
+
+	<div class=" ">
+		{% include 'regx/nav.html' %}
+	</div>
+
+
+
+
+	<div id="fisher" class=" user text-xl md:text-lg 	">
+		{% block content %}
+				replace me
+		{% endblock content %}
+	</div>
+
+	<script src="{% static 'js/ja1.js' %} "></script>
+	<script src="{% static 'jascript/ja11.js' %} "></script>
+</body>
+
+</html>

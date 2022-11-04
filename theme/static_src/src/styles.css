@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav{
+    @apply flex justify-between  p-5 capitalize text-xl text-gray-300   h-20 items-center;
+}
+.icon{
+    @apply hover:translate-y-6 transition-all ease-in-out duration-100 ;
+}
+.form-s{
+    @apply placeholder:italic bg-transparent border-white/70 border-[2px] rounded-xl focus:ring-0 focus:border-blue-900 shadow-md
+}
+.iconbg{
+    @apply bg-gradient-to-r to-blue-600 from-red-500 bg-clip-text text-transparent text-2xl shadow-2xl
+}
+.iconb{
+    @apply bg-gradient-to-r to-blue-900 from-blue-200 bg-clip-text text-transparent text-2xl shadow-2xl
+}
+.iconsp{
+    @apply bg-gradient-to-r to-yellow-600 from-red-500 bg-clip-text text-transparent text-xl shadow-2xl
+
+}
+.iconsm{
+     @apply bg-gradient-to-r to-blue-600 from-red-500 bg-clip-text text-transparent
+}
+.testimony{
+    @apply bg-white/30 p-8 rounded-xl
+    
+}
+.btn{
+    @apply bg-gradient-to-r to-blue-900 from-blue-500
+}
