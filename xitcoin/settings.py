@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'theme',
     'fontawesome_6',
     'django_browser_reload',
-
+    'blog',
 ]
 
 MIDDLEWARE = [
