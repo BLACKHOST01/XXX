@@ -5,5 +5,5 @@ from django.urls import path
 
 
 urlpatterns =[
-   path('nlogsss', views.Blog, name='space'),
+   path('blog/', views.Blog, name='blog'),
 ]

@@ -21,4 +21,6 @@ urlpatterns = [
     path("__reload__/", include("django_browser_reload.urls")),
     path('', include('core.urls')),
     path('blog/', include('blog.urls')),
+    path('space/', include('space.urls')),
+    path('parcel/', include('parcel.urls')),
 ]

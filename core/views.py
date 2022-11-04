@@ -16,5 +16,5 @@ def comp(request):
     return render(request, 'home/company.html', {})
 
 
-def SpAce(request):
-    return render(request, 'home/space.html', {})
+# def SpAce(request):
+#     return render(request, 'home/space.html', {})
