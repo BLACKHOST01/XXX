@@ -43,7 +43,12 @@ module.exports = {
         // '../../**/*.py'
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                heropattern: "url({% static 'images/passport.png' %})",
+                
+              },
+        },
     },
     plugins: [
         /**
